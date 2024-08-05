@@ -1,0 +1,330 @@
+.background {
+  background-color: green;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.wheel {
+  height: 500px;
+  width: 1000px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.second-wheel {
+  width: 90%;
+  height: 100%
+}
+
+.inner-wheel {
+  width: 100%;
+  display: flex;
+  margin-top: 25px;
+  height: 80px
+}
+
+.number {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 9px;
+  cursor: pointer;
+  transition: 0.15s;
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif;
+  background: rgb(180, 0, 0);
+}
+
+.number-two {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 9px;
+  cursor: pointer;
+  transition: 0.15s;
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif;
+  background: rgb(30, 30, 30);
+}
+
+.number:hover {
+  background-color: rgb(237, 0, 0);
+}
+
+.number-two:hover {
+  background-color: rgb(60, 60, 60);
+}
+
+.number-zero {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 9px;
+  cursor: pointer;
+  transition: 0.15s;
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif;
+  background: rgb(0, 93, 0);
+}
+
+.number-zero:hover {
+  background: rgb(0, 176, 0);
+}
+
+.number-clear {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 9px;
+  cursor: pointer;
+  transition: 0.15s;
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.number-clear:hover {
+  background: rgba(255, 255, 255, 0.164);
+}
+
+.your-bet {
+  width: 350px;
+  height: 100%;
+  border-left: 2px solid white;
+}
+
+.new-number-red {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 80px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif;
+  background-color: rgb(180, 0, 0);
+}
+
+.new-number-black {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 80px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif;
+  background-color: rgb(30, 30, 30);
+}
+
+.new-number-green {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 80px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif;
+  background: rgb(0, 93, 0);
+}
+
+.new-number-clear {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 80px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.current-bet {
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.num {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 37.5px;
+  border: 1px solid white;
+  width: 60px;
+  cursor: pointer;
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.num:hover {
+  background: rgba(255, 255, 255, 0.242);
+}
+
+.total {
+  width: 120px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 50px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  margin-right: 100px; 
+}
+
+.place-bet-unselected {
+  height: 75%;
+  width: 110px;
+  margin-left: 25px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.place-bet {
+  height: 75%;
+  width: 110px;
+  margin-left: 25px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+  background: rgb(78, 170, 55);
+}
+
+.place-bet:hover {
+  background: rgb(93, 229, 58);
+}
+
+.cash-amount {
+  width: 130px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 50px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background: none;
+  border: none;
+}
+
+.cash-amount:focus {
+  outline: none;
+}
+
+.play {
+  height: 75%;
+  width: 60px;
+  margin-left: 10px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+  background: rgb(214, 103, 103);
+}
+
+.play-unselected {
+  height: 75%;
+  width: 60px;
+  margin-left: 10px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.play:hover {
+  background: rgb(223, 156, 156);
+}
+
+.cashout {
+  height: 75%;
+  width: 85px;
+  margin-left: 10px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.cashout:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
